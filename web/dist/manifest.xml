@@ -9,7 +9,7 @@
   <Description DefaultValue="誤送信防止機能を提供するメールアドインです。" />
   <IconUrl DefaultValue="https://fukushima-computer-system.github.io/outlook-check-recipients-addin/web/dist/assets/icon-80.png" />
   <HighResolutionIconUrl DefaultValue="https://fukushima-computer-system.github.io/outlook-check-recipients-addin/web/dist/assets/logo-filled.png" />
-  <SupportUrl DefaultValue="https://fukushima-computer-system.github.io/outlook-check-recipients-addin/web/dist/" />
+  <SupportUrl DefaultValue="https://fukushima-computer-system.github.io/outlook-check-recipients-addin/" />
 
   <Requirements>
     <Sets DefaultMinVersion="1.8">
