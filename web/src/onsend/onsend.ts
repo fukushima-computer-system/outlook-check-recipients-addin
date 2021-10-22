@@ -75,7 +75,7 @@ async function inspect(event: any) {
         try {
             console.error(err);
             if (!userCancelled) {
-                await Common.promiseDisplayErrorMessage('アドインの処理エラーにより送信が中止されました。詳細：' + err.message);
+                await Common.promiseDisplayMessage('アドインの処理エラーにより送信が中止されました。詳細：' + err.message);
             }
             else {
                 await Common.promiseDisplayMessage('確認ダイアログにより送信はキャンセルされました。');
