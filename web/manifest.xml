@@ -9,7 +9,7 @@
   <Description DefaultValue="（localhost:3000）誤送信防止機能を提供するメールアドインです。" />
   <IconUrl DefaultValue="https://localhost:3000/assets/icon-80.png" />
   <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/logo-filled.png" />
-  <SupportUrl DefaultValue="https://localhost:3000/support.html" />
+  <SupportUrl DefaultValue="https://localhost:3000/" />
 
   <Requirements>
     <Sets DefaultMinVersion="1.8">
