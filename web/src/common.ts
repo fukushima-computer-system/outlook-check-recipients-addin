@@ -1,3 +1,5 @@
+const env: any = require("../env.json");
+
 export const NotificationKeyInfo = 'OnFcsMailAddin';
 export const NotificationKeyError = 'OnFcsMailAddinError';
 export const DialogTimeoutWarning = 269 * 1000;
@@ -331,7 +333,7 @@ export async function promiseOpenDialog(isOnline: boolean): Promise<boolean> {
 
   console.log('[START/END] promiseOpenDialog');
   return new Promise((resolve, reject) => {
-    Office.context.ui.displayDialogAsync(window.location.origin + "/dialog.html",
+    Office.context.ui.displayDialogAsync(env.documentRoot + "dialog.html",
       {
         height: 70, // percent
         width: 70, // percent

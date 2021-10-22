@@ -67,7 +67,11 @@ module.exports = async (env, options) => {
             to: 'assets',
           },
           {
-            from: dev ? 'manifest.xml' : 'manifest.prod.xml',
+            from: '../README.md',
+            to: 'README.md',
+          },
+          {
+            from: './manifest.xml',
             to: 'manifest.xml',
           }
         ]
