@@ -3,7 +3,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require('webpack');
 
 module.exports = async (env, options) => {
-  const dev = options.mode === "development";
   const config = {
     devtool: "source-map",
     entry: {
@@ -93,7 +92,7 @@ module.exports = async (env, options) => {
             to: 'assets',
           },
           {
-            from: dev ? 'manifest.dev.xml' : 'manifest.prod.xml',
+            from: 'manifest.xml',
             to: 'manifest.xml',
           }
         ]
