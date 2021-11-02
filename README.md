@@ -56,7 +56,7 @@ Desktop 版の Outlook を起動します。
 
 ![](./images/install-04.PNG)
 
-入力欄に「 https://fukushima-computer-system.github.io/outlook-check-recipients-addin/web/dist/manifest.xml 」と入力し、「OK」を押下します。
+入力欄に「 https://fukushima-computer-system.github.io/outlook-check-recipients-addin/dist/manifest.xml 」と入力し、「OK」を押下します。
 
 ![](./images/install-05.PNG)
 
@@ -78,7 +78,7 @@ Desktop 版の Outlook を起動します。
 https://admin.microsoft.com/adminportal/home#/Settings/AddIns
 
 1. 「アドインの展開」＞「次へ」＞「カスタムアプリをアップロード」＞「マニフェストのURLがわかります」を選択します。
-2. URL の入力欄に「 https://fukushima-computer-system.github.io/outlook-check-recipients-addin/web/dist/manifest.xml 」と入力します。
+2. URL の入力欄に「 https://fukushima-computer-system.github.io/outlook-check-recipients-addin/dist/manifest.xml 」と入力します。
 3. 「アップロード」を押下します。
 4. 展開方法を選択して、「展開」を押下します。例えば「すべてのユーザー」に対して「固定」で展開すると、テナント内のすべてのユーザーに本アドインが適用され、ユーザーはアドインを削除することができなくなります。
 
