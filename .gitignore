@@ -2,4 +2,3 @@
 node_modules/
 /env.json
 /manifest.xml
-*.LICENSE.txt
